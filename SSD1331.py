@@ -1,7 +1,7 @@
 import config
 import RPi.GPIO as GPIO
 import time
-import numpy as np    
+import numpy as np     
 
 DRAW_LINE                       = 0x21
 DRAW_RECTANGLE                  = 0x22
