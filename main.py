@@ -40,7 +40,7 @@ try:
     
     print ("***draw image")
     image = Image.open('sq.png')	
-    disp.ShowImage(image,10,10)
+    #disp.ShowImage(image,10,10)
     
 except KeyboardInterrupt:
     print ('\r\ntraceback.format_exc():\n%s' % traceback.format_exc())
